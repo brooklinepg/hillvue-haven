@@ -1,0 +1,146 @@
+{
+  "site_title": "Hillvue Haven — SDA Residences in Tamworth",
+  "meta_description": "Brand new Fully Accessible and Improved Liveability SDA residences at 46 Mustang Close, Hillvue NSW. Built by Brookline Property Group, managed by ADAPT Housing.",
+
+  "hero": {
+    "pill_text": "46 Mustang Close, Hillvue NSW — Now Available",
+    "pill_status": "available",
+    "headline_line1": "A place",
+    "headline_line2": "to flourish.",
+    "subheadline": "Brand new SDA residences in Hillvue — designed with warmth, built for independence, and crafted to feel like home from the very first day.",
+    "hero_image": "/images/hero.jpg",
+    "cta_primary_text": "Get in Touch",
+    "cta_secondary_text": "See Residences"
+  },
+
+  "stats": [
+    { "number": "2", "label": "Residences" },
+    { "number": "FA & IL", "label": "SDA Categories" },
+    { "number": "2024", "label": "Year Built" },
+    { "number": "ADAPT", "label": "SDA Provider" }
+  ],
+
+  "welcome": {
+    "tag": "Welcome to Hillvue Haven",
+    "headline": "Where everyday living feels",
+    "headline_em": "genuinely good.",
+    "body_1": "Hillvue Haven is a brand new specialist disability accommodation development in Hillvue — a friendly, connected suburb just minutes from the heart of Tamworth.",
+    "body_2": "Built by Brookline Property Group, with housing managed by ADAPT Housing and support delivered by Challenge Community Services, it's a place designed entirely around you.",
+    "body_3": "The house is built to Fully Accessible standards and the villa to Improved Liveability standards — both delivering real comfort, genuine independence, and a home you'll be proud to call your own.",
+    "welcome_image": "/images/img01.jpg",
+    "certs": [
+      { "label": "Fully Accessible — House", "style": "terra" },
+      { "label": "Improved Liveability — Villa", "style": "sage" },
+      { "label": "NDIS SDA Certified", "style": "sage" },
+      { "label": "Fire Sprinklers", "style": "sage" }
+    ]
+  },
+
+  "house": {
+    "tag": "House · With OOA · Fully Accessible",
+    "name": "Two Bedroom Residence",
+    "description": "Built to Fully Accessible standards with spacious open-plan living, a private outdoor entertaining area, and a dedicated On-site Overnight Accommodation suite for your support team.",
+    "image": "/images/img02.jpg",
+    "pills": ["Open plan living", "Private alfresco", "OOA suite", "Fire sprinklers", "Height-adj. benches", "Fully Accessible"]
+  },
+
+  "villa": {
+    "tag": "Villa · Without OOA · Improved Liveability",
+    "name": "One Bedroom Villa",
+    "description": "A beautifully finished compact residence built to Improved Liveability standards. Smart, efficient layout with full accessibility throughout and a private outdoor courtyard.",
+    "image": "/images/img03.jpg",
+    "pills": ["Compact & efficient", "Low maintenance", "Private courtyard", "Fire sprinklers", "Accessible bathroom", "Improved Liveability"]
+  },
+
+  "features": [
+    {
+      "number": "01",
+      "title": "Brand New Build",
+      "description": "Never lived in — Hillvue Haven is a purpose-built development delivered to modern SDA design standards with quality finishes throughout."
+    },
+    {
+      "number": "02",
+      "title": "Fully Accessible",
+      "description": "The house is certified Fully Accessible — high levels of assisted physical access for wheelchair users, wide hallways, step-free throughout, and roll-under benchtops. The villa is built to Improved Liveability standards."
+    },
+    {
+      "number": "03",
+      "title": "Fire Sprinkler System",
+      "description": "Fully integrated fire sprinkler protection throughout the entire home — giving residents and support teams complete peace of mind, every day."
+    },
+    {
+      "number": "04",
+      "title": "Maximised Outdoor Living",
+      "description": "Generous covered alfresco areas, level lawn, and private outdoor spaces designed to be enjoyed — somewhere to breathe, relax, and truly make your own."
+    },
+    {
+      "number": "05",
+      "title": "Assistive Technology Ready",
+      "description": "Pre-wired smart home infrastructure including wall-mounted control panels so assistive technology can grow and adapt with you as your needs evolve."
+    },
+    {
+      "number": "06",
+      "title": "Expert Care Partners",
+      "description": "Housing managed by ADAPT Housing (SDA provider) and daily support delivered by Challenge Community Services (SIL provider) — a trusted, experienced team around you."
+    }
+  ],
+
+  "quote": {
+    "text": "A home isn't just a place — it's a feeling. Hillvue Haven was built to give you both.",
+    "attribution": "Brookline Property Group"
+  },
+
+  "outdoor": {
+    "tag": "Outdoor Living",
+    "headline": "Space to",
+    "headline_em": "breathe & belong.",
+    "body_1": "Hillvue Haven was designed with outdoor living at its heart. Covered alfresco areas flow naturally from the open-plan living spaces — blurring the line between inside and out.",
+    "body_2": "Every residence has generous private outdoor space, beautifully landscaped and level — a place to entertain, to sit in the sun, or to simply enjoy the fresh air.",
+    "checklist": [
+      "Covered alfresco entertaining areas",
+      "Level lawn — wheelchair and mobility aid friendly",
+      "Private, fully fenced outdoor areas",
+      "Sliding glass doors from main living areas"
+    ],
+    "image": "/images/img04.jpg"
+  },
+
+  "location": {
+    "address": "46 Mustang Close, Hillvue NSW 2340",
+    "pois": [
+      { "icon": "🏥", "name": "Tamworth Base Hospital", "distance": "9 min north · Dean St" },
+      { "icon": "🏛️", "name": "Services Australia", "distance": "Centrelink · Medicare · Peel St" },
+      { "icon": "🛒", "name": "Calala IGA & NW Health GP", "distance": "Campbell Rd, Calala · 3 min" },
+      { "icon": "🏙️", "name": "Tamworth CBD", "distance": "8 min north · Peel St" },
+      { "icon": "🎸", "name": "Big Golden Guitar", "distance": "2 min · 1.2 km south" },
+      { "icon": "🐴", "name": "AELEC Equestrian Centre", "distance": "503 Goonoo Goonoo Rd" },
+      { "icon": "🍽️", "name": "Tamworth Dining & Cafes", "distance": "8 min · Peel St precinct" },
+      { "icon": "🌿", "name": "Bicentennial Park", "distance": "10 min · riverside walks" }
+    ]
+  },
+
+  "gallery": {
+    "images": [
+      { "src": "/images/img05.jpg", "alt": "Living room with sliding doors to outdoor", "wide": true },
+      { "src": "/images/img06.jpg", "alt": "Front exterior street view", "wide": false },
+      { "src": "/images/img07.jpg", "alt": "Accessible ensuite bathroom", "wide": false },
+      { "src": "/images/img08.jpg", "alt": "Covered alfresco and rear exterior", "wide": true },
+      { "src": "/images/img09.jpg", "alt": "Side yard with lawn", "wide": false },
+      { "src": "/images/img10.jpg", "alt": "Height-adjustable kitchen bench", "wide": false },
+      { "src": "/images/img11.jpg", "alt": "Aerial front view of property", "wide": true },
+      { "src": "/images/img12.jpg", "alt": "Wide accessible hallway", "wide": false },
+      { "src": "/images/img13.jpg", "alt": "Rear exterior view", "wide": false },
+      { "src": "/images/img14.jpg", "alt": "Aerial view with mountain backdrop", "wide": true }
+    ]
+  },
+
+  "contact": {
+    "address": "46 Mustang Close, Hillvue NSW 2340",
+    "email": "office@brooklinepg.com.au",
+    "sda_provider": "ADAPT Housing",
+    "sda_provider_url": "https://www.adapthousing.com.au",
+    "sil_provider": "Challenge Community Services",
+    "sil_provider_url": "https://www.challengecommunity.com.au",
+    "manager_blurb": "Developer and property manager for Hillvue Haven. We're here to help connect you with the right housing and support."
+  }
+}

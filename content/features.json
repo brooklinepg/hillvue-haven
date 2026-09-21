@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "number": "01",
+      "title": "Brand New Build",
+      "description": "Never lived in — Hillvue Haven is a purpose-built development delivered to modern SDA design standards with quality finishes throughout."
+    },
+    {
+      "number": "02",
+      "title": "Fully Accessible",
+      "description": "The house is certified Fully Accessible — high levels of assisted physical access for wheelchair users, wide hallways, step-free throughout, and roll-under benchtops. The villa is built to Improved Liveability standards."
+    },
+    {
+      "number": "03",
+      "title": "Fire Sprinkler System",
+      "description": "Fully integrated fire sprinkler protection throughout the entire home — giving residents and support teams complete peace of mind, every day."
+    },
+    {
+      "number": "04",
+      "title": "Maximised Outdoor Living",
+      "description": "Generous covered alfresco areas, level lawn, and private outdoor spaces designed to be enjoyed — somewhere to breathe, relax, and truly make your own."
+    },
+    {
+      "number": "05",
+      "title": "Assistive Technology Ready",
+      "description": "Pre-wired smart home infrastructure including wall-mounted control panels so assistive technology can grow and adapt with you as your needs evolve."
+    },
+    {
+      "number": "06",
+      "title": "Expert Care Partners",
+      "description": "Housing managed by ADAPT Housing (SDA provider) and daily support delivered by Challenge Community Services (SIL provider) — a trusted, experienced team around you."
+    }
+  ]
+}

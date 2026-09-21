@@ -1,0 +1,30 @@
+{
+  "house": {
+    "tag": "House · With OOA · Fully Accessible",
+    "name": "Two Bedroom Residence",
+    "description": "Built to Fully Accessible standards with spacious open-plan living, a private outdoor entertaining area, and a dedicated On-site Overnight Accommodation suite for your support team.",
+    "image": "/images/img02.jpg",
+    "pills": [
+      "Open plan living",
+      "Private alfresco",
+      "OOA suite",
+      "Fire sprinklers",
+      "Height-adj. benches",
+      "Fully Accessible"
+    ]
+  },
+  "villa": {
+    "tag": "Villa · Without OOA · Improved Liveability",
+    "name": "One Bedroom Villa",
+    "description": "A beautifully finished compact residence built to Improved Liveability standards. Smart, efficient layout with full accessibility throughout and a private outdoor courtyard.",
+    "image": "/images/img03.jpg",
+    "pills": [
+      "Compact & efficient",
+      "Low maintenance",
+      "Private courtyard",
+      "Fire sprinklers",
+      "Accessible bathroom",
+      "Improved Liveability"
+    ]
+  }
+}

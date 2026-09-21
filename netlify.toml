@@ -1,13 +1,8 @@
 [build]
-  command = "npx @11ty/eleventy"
-  publish = "_site"
+  publish = "."
+  command = ""
 
 [[headers]]
-  for = "/*"
+  for = "/content/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
-
-[[headers]]
-  for = "/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800, immutable"
+    Cache-Control = "no-cache"

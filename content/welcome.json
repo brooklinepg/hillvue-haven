@@ -1,0 +1,27 @@
+{
+  "tag": "Welcome to Hillvue Haven",
+  "headline": "Where everyday living feels",
+  "headline_em": "genuinely good.",
+  "body_1": "Hillvue Haven is a brand new specialist disability accommodation development in Hillvue — a friendly, connected suburb just minutes from the heart of Tamworth.",
+  "body_2": "Built by Brookline Property Group, with housing managed by ADAPT Housing and support delivered by Challenge Community Services, it's a place designed entirely around you.",
+  "body_3": "The house is built to Fully Accessible standards and the villa to Improved Liveability standards — both delivering real comfort, genuine independence, and a home you'll be proud to call your own.",
+  "welcome_image": "/images/img01.jpg",
+  "certs": [
+    {
+      "label": "Fully Accessible — House",
+      "style": "terra"
+    },
+    {
+      "label": "Improved Liveability — Villa",
+      "style": "sage"
+    },
+    {
+      "label": "NDIS SDA Certified",
+      "style": "sage"
+    },
+    {
+      "label": "Fire Sprinklers",
+      "style": "sage"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hillvue Haven — SDA Residences in Tamworth</title>
+<meta name="description" content="Brand new Fully Accessible and Improved Liveability SDA residences at 46 Mustang Close, Hillvue NSW. Built by Brookline Property Group, managed by ADAPT Housing.">
+<script>
+if (/(invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) {
+  location.replace('/admin/' + location.hash);
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FAF6EE;--warm-white:#FFFCF7;--terra:#C4644A;--terra-lt:#D98068;--terra-pale:#F0DDD7;--sage:#7B9E87;--sage-deep:#4E7260;--sage-pale:#D8EAE0;--sand:#E8DCC8;--ink:#1E1A16;--ink-mid:#3D3630;--peach:#F2C4A8;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden;}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:20px 56px;transition:all .4s;}
+nav.scrolled{background:rgba(30,26,22,.95);backdrop-filter:blur(16px);padding:14px 56px;}
+.nav-logo{font-family:'Fraunces',serif;font-size:21px;font-style:italic;color:#fff;text-decoration:none;letter-spacing:.02em;}
+.nav-logo span{color:var(--peach);}
+.nav-links{display:flex;gap:32px;align-items:center;}
+.nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:14px;transition:color .2s;}
+.nav-links a:hover{color:#fff;}
+.nav-cta{background:var(--terra);color:#fff!important;padding:10px 24px;border-radius:100px;font-size:13px!important;font-weight:500!important;}
+.nav-cta:hover{background:var(--terra-lt)!important;}
+
+.hero{height:100vh;min-height:640px;background-color:var(--ink);background-size:cover;background-position:center 60%;background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding:0 80px 100px;position:relative;}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(30,26,22,.82) 0%,rgba(30,26,22,.35) 50%,rgba(30,26,22,.08) 100%);}
+.hero-content{position:relative;z-index:1;max-width:700px;}
+.hero-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:8px 20px;border-radius:100px;margin-bottom:32px;}
+.hero-pill::before{content:'';width:6px;height:6px;background:#7B9E87;border-radius:50%;}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(48px,7vw,88px);font-weight:400;color:#fff;line-height:1.0;margin-bottom:24px;}
+.hero h1 em{font-style:italic;color:var(--peach);}
+.hero-sub{color:rgba(255,255,255,.78);font-size:18px;font-weight:300;line-height:1.65;margin-bottom:44px;max-width:520px;}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;}
+.btn-pri{background:var(--terra);color:#fff;padding:17px 36px;border-radius:100px;font-size:14px;font-weight:500;letter-spacing:.06em;text-decoration:none;transition:all .2s;display:inline-block;}
+.btn-pri:hover{background:var(--terra-lt);transform:translateY(-2px);}
+.btn-ghost{color:#fff;padding:17px 36px;border:1.5px solid rgba(255,255,255,.45);border-radius:100px;font-size:14px;letter-spacing:.06em;text-decoration:none;transition:all .2s;display:inline-block;}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08);}
+
+.stats{background:var(--ink);display:flex;justify-content:center;flex-wrap:wrap;}
+.stat{display:flex;flex-direction:column;align-items:center;padding:30px 60px;border-right:1px solid rgba(255,255,255,.07);}
+.stat:last-child{border:none;}
+.stat-n{font-family:'Fraunces',serif;font-size:30px;color:var(--peach);margin-bottom:4px;}
+.stat-l{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.45);}
+
+section{padding:100px 80px;}
+.tag{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--sage-deep);font-weight:500;margin-bottom:20px;}
+.tag::before{content:'';display:block;width:28px;height:1.5px;background:var(--sage-deep);}
+h2.sh{font-family:'Fraunces',serif;font-size:clamp(36px,4.5vw,60px);font-weight:400;line-height:1.08;color:var(--ink);margin-bottom:24px;}
+h2.sh em{font-style:italic;color:var(--terra);}
+
+.welcome{background:var(--warm-white);}
+.wgrid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.wbody{font-size:16px;font-weight:300;color:var(--ink-mid);line-height:1.85;margin-bottom:14px;}
+.wlink{display:inline-flex;align-items:center;gap:10px;color:var(--terra);font-size:14px;font-weight:500;letter-spacing:.04em;text-decoration:none;margin-top:28px;transition:gap .2s;}
+.wlink:hover{gap:16px;}
+.wimg{position:relative;}
+.wimg img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;}
+.badge-wrap{position:absolute;bottom:-28px;left:-28px;display:flex;border-radius:12px;overflow:hidden;box-shadow:0 8px 40px rgba(30,26,22,.18);}
+.badge-fa{background:var(--terra);color:#fff;padding:22px 26px;}
+.badge-il{background:var(--sage-deep);color:#fff;padding:22px 26px;}
+.badge-n{font-family:'Fraunces',serif;font-size:30px;line-height:1;}
+.badge-l{font-size:10px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-top:4px;}
+.cert-strip{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px;}
+.cert{background:var(--sage-pale);color:var(--sage-deep);padding:8px 20px;border-radius:100px;font-size:12px;letter-spacing:.07em;font-weight:500;}
+.cert-terra{background:var(--terra-pale);color:var(--terra);}
+
+.residences{background:var(--cream);}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:56px;}
+.rcard{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 2px 28px rgba(30,26,22,.06);transition:transform .3s,box-shadow .3s;}
+.rcard:hover{transform:translateY(-8px);box-shadow:0 16px 56px rgba(30,26,22,.12);}
+.rcard-img{aspect-ratio:16/10;overflow:hidden;}
+.rcard-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s;}
+.rcard:hover .rcard-img img{transform:scale(1.05);}
+.rcard-body{padding:36px;}
+.rtag{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage-deep);font-weight:500;}
+.rname{font-family:'Fraunces',serif;font-size:28px;color:var(--ink);margin:12px 0 6px;font-weight:400;}
+.rdetail{font-size:14px;color:var(--ink-mid);line-height:1.75;font-weight:300;}
+.rpills{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0;}
+.rpill{background:var(--cream);color:var(--ink-mid);font-size:12px;padding:6px 14px;border-radius:100px;border:1px solid var(--sand);}
+.rfooter{margin-top:20px;padding-top:20px;border-top:1px solid var(--sand);}
+.rcta{display:inline-flex;align-items:center;gap:8px;color:var(--terra);font-size:13px;font-weight:500;letter-spacing:.04em;text-decoration:none;transition:gap .2s;}
+.rcta:hover{gap:14px;}
+
+.features{background:var(--ink);padding:100px 80px;}
+.features .tag{color:var(--sage);}
+.features .tag::before{background:var(--sage);}
+.features h2.sh{color:#fff;}
+.fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:56px;}
+.fitem{background:rgba(255,255,255,.03);padding:44px 38px;border:1px solid rgba(255,255,255,.05);transition:background .3s;}
+.fitem:hover{background:rgba(255,255,255,.07);}
+.fnum{font-family:'Fraunces',serif;font-size:48px;color:var(--terra-pale);opacity:.2;margin-bottom:22px;}
+.ftitle{font-family:'Fraunces',serif;font-size:23px;color:#fff;margin-bottom:12px;font-weight:400;}
+.fdesc{font-size:14px;color:rgba(255,255,255,.48);line-height:1.75;font-weight:300;}
+
+.quote{background:var(--terra);padding:88px 80px;display:flex;flex-direction:column;align-items:center;text-align:center;}
+.qtext{font-family:'Fraunces',serif;font-size:clamp(26px,3.5vw,44px);font-style:italic;color:#fff;font-weight:400;max-width:800px;line-height:1.35;margin-bottom:28px;}
+.qattr{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);}
+
+.outdoor{display:grid;grid-template-columns:1fr 1fr;min-height:600px;}
+.outdoor-img{background-size:cover;background-position:center;background-repeat:no-repeat;min-height:320px;}
+.outdoor-txt{background:var(--sage-pale);padding:90px 64px;display:flex;flex-direction:column;justify-content:center;}
+.outdoor-txt h2{font-family:'Fraunces',serif;font-size:clamp(34px,3.5vw,50px);font-weight:400;margin-bottom:20px;line-height:1.1;}
+.outdoor-txt h2 em{font-style:italic;color:var(--sage-deep);}
+.outdoor-txt p{font-size:16px;font-weight:300;color:var(--ink-mid);line-height:1.85;margin-bottom:14px;}
+.outdoor-checks{list-style:none;margin:24px 0 32px;display:flex;flex-direction:column;gap:12px;}
+.outdoor-checks li{display:flex;align-items:center;gap:12px;font-size:15px;color:var(--ink-mid);font-weight:300;}
+.outdoor-checks li::before{content:'';width:20px;height:20px;min-width:20px;background:var(--sage-deep);border-radius:50%;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");background-size:12px;background-repeat:no-repeat;background-position:center;}
+
+.location{background:var(--warm-white);}
+.lgrid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-top:60px;}
+.poigrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px;}
+.poi{display:flex;align-items:flex-start;gap:12px;background:var(--cream);padding:18px;border-radius:12px;}
+.poi-icon{font-size:18px;margin-top:2px;}
+.poi-name{font-size:14px;font-weight:500;display:block;color:var(--ink);}
+.poi-dist{font-size:12px;color:var(--ink-mid);font-weight:300;display:block;margin-top:3px;}
+.map-wrap{border-radius:16px;overflow:hidden;aspect-ratio:4/3;}
+.map-wrap iframe{width:100%;height:100%;border:none;}
+
+.gallery{background:var(--ink);padding:100px 0;}
+.ghdr{padding:0 80px 44px;}
+.ghdr .tag{color:var(--sage);}
+.ghdr .tag::before{background:var(--sage);}
+.gmosaic{display:flex;gap:14px;overflow-x:auto;padding:0 80px 28px;cursor:grab;scrollbar-width:none;}
+.gmosaic::-webkit-scrollbar{display:none;}
+.gmosaic.drag{cursor:grabbing;}
+.gitem{flex:0 0 360px;}
+.gitem.wide{flex:0 0 480px;}
+.gitem img{width:100%;height:280px;object-fit:cover;border-radius:12px;transition:opacity .3s;cursor:zoom-in;}
+.gitem img:hover{opacity:.88;}
+.gctrls{display:flex;gap:12px;padding:16px 80px 0;}
+.gctrls button{width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(255,255,255,.18);background:transparent;color:#fff;font-size:20px;cursor:pointer;transition:all .2s;}
+.gctrls button:hover{background:rgba(255,255,255,.1);border-color:#fff;}
+.gctrls button:disabled{opacity:.25;cursor:not-allowed;}
+
+#lb{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.93);align-items:center;justify-content:center;}
+#lb.on{display:flex;}
+#lb img{max-width:92vw;max-height:92vh;object-fit:contain;border-radius:8px;}
+#lbx{position:fixed;top:24px;right:36px;color:#fff;font-size:36px;cursor:pointer;background:none;border:none;line-height:1;}
+
+.sda{background:var(--cream);}
+.sdagrid{display:grid;grid-template-columns:1fr 1fr;gap:80px;}
+.sdabubbles{display:flex;flex-direction:column;gap:20px;}
+.bubble{background:#fff;border-radius:14px;padding:30px 36px;box-shadow:0 2px 20px rgba(30,26,22,.06);}
+.bubble h4{font-family:'Fraunces',serif;font-size:19px;color:var(--ink);margin-bottom:10px;font-weight:400;}
+.bubble p{font-size:14px;color:var(--ink-mid);line-height:1.75;font-weight:300;}
+
+.contact{background:var(--warm-white);}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:60px;align-items:start;}
+.cline{display:flex;align-items:flex-start;gap:18px;margin-bottom:28px;}
+.cicon{font-size:22px;margin-top:2px;}
+.clbl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage-deep);margin-bottom:5px;}
+.cval{font-size:15px;color:var(--ink);font-weight:300;}
+.cval a{color:var(--ink);text-decoration:none;}
+.cform{background:#fff;border-radius:20px;padding:44px;box-shadow:0 4px 40px rgba(30,26,22,.08);}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.fg{display:flex;flex-direction:column;gap:6px;margin-bottom:18px;}
+.fg label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-mid);}
+.fg input,.fg select,.fg textarea{border:1.5px solid var(--sand);border-radius:10px;padding:13px 17px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--cream);transition:border-color .2s;outline:none;}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--terra);}
+.fg textarea{height:120px;resize:vertical;}
+.fsubmit{background:var(--terra);color:#fff;border:none;width:100%;padding:17px;border-radius:100px;font-size:14px;font-weight:500;letter-spacing:.06em;cursor:pointer;transition:background .2s;margin-top:8px;font-family:'DM Sans',sans-serif;}
+.fsubmit:hover{background:var(--terra-lt);}
+.hp{display:none;}
+
+footer{background:var(--ink);padding:52px 80px;}
+.fgrid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px;width:100%;}
+.flogo{font-family:'Fraunces',serif;font-size:24px;font-style:italic;color:#fff;}
+.flogo span{color:var(--peach);}
+
+.disclosures{background:#13110E;}
+.disc-toggle{width:100%;display:flex;justify-content:center;align-items:center;gap:8px;padding:18px 80px;background:none;border:none;border-top:1px solid rgba(255,255,255,.06);cursor:pointer;font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:.08em;color:rgba(255,255,255,.3);transition:color .2s;text-transform:uppercase;}
+.disc-toggle:hover{color:rgba(255,255,255,.5);}
+.disc-body{display:none;padding:52px 80px;border-top:1px solid rgba(255,255,255,.05);}
+.disc-body.open{display:block;}
+.disc-body h3{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:24px;}
+.disc-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;}
+.disc-col h4{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:10px;margin-top:28px;}
+.disc-col h4:first-child{margin-top:0;}
+.disc-col p,.disc-col a{font-size:12px;color:rgba(255,255,255,.22);line-height:1.85;font-weight:300;text-decoration:none;}
+.disc-col a:hover{color:rgba(255,255,255,.4);}
+
+@media(max-width:860px){
+  nav,nav.scrolled{padding:16px 20px;} .nav-links a:not(.nav-cta){display:none;}
+  .hero{padding:0 24px 64px;}
+  section,.features,.quote{padding:64px 24px;}
+  .stat{padding:20px 28px;border:none;}
+  .wgrid,.rgrid,.lgrid,.sdagrid,.cgrid,.outdoor,.disc-grid,.fgrid3{grid-template-columns:1fr;gap:40px;}
+  .fgrid{grid-template-columns:1fr;}
+  .poigrid,.frow{grid-template-columns:1fr;}
+  .badge-wrap{left:12px;bottom:-20px;}
+  .outdoor-txt{padding:56px 24px;}
+  .ghdr{padding:0 24px 32px;} .gmosaic{padding:0 24px 20px;} .gctrls{padding:12px 24px 0;}
+  .gitem,.gitem.wide{flex:0 0 280px;}
+  .cform{padding:28px;}
+  footer{padding:40px 24px;} .fgrid3 > div{text-align:center!important;}
+  .disc-toggle,.disc-body{padding-left:24px;padding-right:24px;}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#" class="nav-logo">Hillvue <span>Haven</span></a>
+  <div class="nav-links">
+    <a href="#residences">Residences</a>
+    <a href="#features">Features</a>
+    <a href="#neighbourhood">Neighbourhood</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact" class="nav-cta">Contact Us</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-pill" id="heroPill"></div>
+    <h1 id="heroTitle"></h1>
+    <p class="hero-sub" id="heroSub"></p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-pri" id="heroCta1"></a>
+      <a href="#residences" class="btn-ghost" id="heroCta2"></a>
+    </div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats" id="stats"></div>
+
+<!-- WELCOME -->
+<section class="welcome" id="welcome">
+  <div class="wgrid">
+    <div>
+      <div class="tag" id="wTag"></div>
+      <h2 class="sh" id="wHead"></h2>
+      <p class="wbody" id="wBody1"></p>
+      <p class="wbody" id="wBody2"></p>
+      <p class="wbody" id="wBody3"></p>
+      <div class="cert-strip" id="wCerts"></div>
+      <a href="#residences" class="wlink">Explore Residences <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="wimg">
+      <img id="wImg" src="" alt="Hillvue Haven interior">
+      <div class="badge-wrap">
+        <div class="badge-fa"><div class="badge-n">FA</div><div class="badge-l">Fully Accessible</div></div>
+        <div class="badge-il"><div class="badge-n">IL</div><div class="badge-l">Improved Liveability</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESIDENCES -->
+<section class="residences" id="residences">
+  <div class="tag">Our Residences</div>
+  <h2 class="sh">Two great ways to<br><em>live here.</em></h2>
+  <p style="font-size:16px;font-weight:300;color:var(--ink-mid);max-width:540px;">Spacious, modern, and fully accessible — choose the layout that suits your life.</p>
+  <div class="rgrid" id="rGrid"></div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="tag">Built to a higher standard</div>
+  <h2 class="sh">Every detail,<br><em>thoughtfully done.</em></h2>
+  <div class="fgrid" id="fGrid"></div>
+</section>
+
+<!-- QUOTE -->
+<div class="quote">
+  <p class="qtext" id="qText"></p>
+  <span class="qattr" id="qAttr"></span>
+</div>
+
+<!-- OUTDOOR -->
+<div class="outdoor">
+  <div class="outdoor-img" id="oImg"></div>
+  <div class="outdoor-txt">
+    <div class="tag" id="oTag"></div>
+    <h2 id="oHead"></h2>
+    <p id="oBody1"></p>
+    <p id="oBody2"></p>
+    <ul class="outdoor-checks" id="oChecks"></ul>
+    <a href="#contact" class="btn-pri" style="align-self:flex-start;">Enquire Today</a>
+  </div>
+</div>
+
+<!-- LOCATION -->
+<section class="location" id="neighbourhood">
+  <div class="tag">Location</div>
+  <h2 class="sh">Hillvue,<br><em>Tamworth.</em></h2>
+  <p style="font-size:16px;font-weight:300;color:var(--ink-mid);max-width:560px;">A quiet, connected suburb — everything you need is close by, and everything else is just a short drive away.</p>
+  <div class="lgrid">
+    <div><div class="poigrid" id="poiGrid"></div></div>
+    <div class="map-wrap"><iframe id="mapFrame" src="" allowfullscreen loading="lazy" title="Map"></iframe></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery" id="gallery">
+  <div class="ghdr">
+    <div class="tag">Gallery</div>
+    <h2 style="font-family:'Fraunces',serif;font-size:52px;color:#fff;font-weight:400;">Have a look around.</h2>
+  </div>
+  <div class="gmosaic" id="gm"></div>
+  <div class="gctrls">
+    <button id="gp" disabled aria-label="Previous">&#8592;</button>
+    <button id="gn" aria-label="Next">&#8594;</button>
+  </div>
+</div>
+<div id="lb"><button id="lbx" aria-label="Close">&#10005;</button><img id="lbi" src="" alt=""></div>
+
+<!-- SDA -->
+<section class="sda" id="sda">
+  <div class="sdagrid">
+    <div>
+      <div class="tag">What is SDA?</div>
+      <h2 class="sh">Housing that's<br><em>funded for you.</em></h2>
+      <p style="font-size:16px;font-weight:300;color:var(--ink-mid);line-height:1.85;margin-bottom:16px;">Specialist Disability Accommodation (SDA) is housing funded through Australia's NDIS for people with extreme functional impairment or very high support needs.</p>
+      <p style="font-size:16px;font-weight:300;color:var(--ink-mid);line-height:1.85;margin-bottom:36px;">That means your rent is covered through your NDIS plan — so you can focus on living well, not on housing costs.</p>
+      <a href="https://www.ndis.gov.au" target="_blank" class="wlink">Learn more at NDIS.gov.au <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="sdabubbles">
+      <div class="bubble"><h4>How does SDA funding work?</h4><p>SDA funding is paid directly to the landlord through your NDIS plan. Eligible participants can live in purpose-built accessible housing without paying standard rental costs out of pocket.</p></div>
+      <div class="bubble"><h4>Am I eligible?</h4><p>SDA is for NDIS participants with extreme functional impairment or very high support needs. Your support coordinator or NDIS planner can assess your eligibility and help you apply.</p></div>
+      <div class="bubble"><h4>How do I apply?</h4><p>Contact ADAPT Housing (SDA provider) about availability, or Challenge Community Services (SIL provider) about care and support arrangements. Reach out to us at Brookline and we'll connect you with the right people.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="tag">Get in Touch</div>
+  <h2 class="sh">We'd love to hear<br><em>from you.</em></h2>
+  <p style="font-size:16px;font-weight:300;color:var(--ink-mid);max-width:480px;">Whether you're looking for a home, a support coordinator, or an investor — we're happy to chat.</p>
+  <div class="cgrid">
+    <div>
+      <div id="cDetails"></div>
+      <div style="margin-top:48px;padding:28px 32px;background:var(--sage-pale);border-radius:16px;">
+        <p style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--sage-deep);font-weight:500;margin-bottom:10px;">Managed by</p>
+        <p style="font-size:15px;color:var(--ink);font-weight:400;margin-bottom:6px;">Brookline Property Group</p>
+        <p style="font-size:13px;color:var(--ink-mid);font-weight:300;line-height:1.7;" id="cBlurb"></p>
+      </div>
+    </div>
+    <div class="cform">
+      <form id="cf" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp"><label>Leave blank <input name="bot-field"></label></p>
+        <div class="frow">
+          <div class="fg"><label>Full Name</label><input type="text" name="name" placeholder="Your name" required></div>
+          <div class="fg"><label>Phone</label><input type="tel" name="phone" placeholder="Your number"></div>
+        </div>
+        <div class="fg"><label>Email</label><input type="email" name="email" placeholder="your@email.com" required></div>
+        <div class="fg">
+          <label>I am a&hellip;</label>
+          <select name="role">
+            <option value="">Select one</option>
+            <option>Prospective Tenant</option>
+            <option>Support Coordinator</option>
+            <option>Occupational Therapist</option>
+            <option>Investor / Fund Inquiry</option>
+            <option>Service Provider</option>
+            <option>Media / Other</option>
+          </select>
+        </div>
+        <div class="fg"><label>Message</label><textarea name="message" placeholder="Tell us a bit about what you're looking for…"></textarea></div>
+        <button type="submit" class="fsubmit" id="fsub">Send Enquiry &rarr;</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fgrid3">
+    <div>
+      <div class="flogo" style="margin-bottom:12px;">Hillvue <span>Haven</span></div>
+      <p style="font-size:12px;color:rgba(255,255,255,.35);line-height:1.85;">A Brookline SDA Property at 46 Mustang Close, Hillvue NSW 2340. Fully Accessible and Improved Liveability homes, now available.</p>
+    </div>
+    <div style="text-align:center;">
+      <p style="font-family:'Fraunces',serif;font-size:16px;font-weight:700;color:#fff;margin-bottom:14px;">Our Portfolio</p>
+      <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+        <a href="https://www.sdamudgee.com.au" target="_blank" style="color:var(--peach);text-decoration:none;font-size:14px;">Gables on Gladstone, Mudgee</a>
+        <a href="https://www.hillvuehouse.com.au" target="_blank" style="color:var(--peach);text-decoration:none;font-size:14px;">Hillvue House, Tamworth</a>
+        <a href="https://www.thepostbathurst.com.au" target="_blank" style="color:var(--peach);text-decoration:none;font-size:14px;">The Post, Bathurst</a>
+      </div>
+    </div>
+    <div style="text-align:right;">
+      <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:14px;font-weight:500;">Contact</p>
+      <p style="font-size:12px;color:rgba(255,255,255,.4);line-height:1.9;" id="fContact"></p>
+    </div>
+  </div>
+</footer>
+
+<!-- DISCLOSURES -->
+<div class="disclosures">
+  <button class="disc-toggle" id="discToggle">
+    Website Terms &amp; Disclaimers
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+  <div class="disc-body" id="discBody">
+    <h3>Website Terms &amp; Disclaimers — Hillvue Haven</h3>
+    <div class="disc-grid">
+      <div class="disc-col">
+        <h4>Website Use of Terms</h4>
+        <p>This website is operated by Brookline SDA Pty Ltd ACN 679 762 693 (Brookline SDA) on behalf of the registered SDA provider for Hillvue Haven. The information on this website is general in nature and does not constitute financial, investment, legal or other professional advice. Brookline SDA, Brookline Property Group Pty Ltd ACN 664 252 546, and associated entities make no representations or warranties about the accuracy or completeness of the information on this website. All information is subject to change without notice.</p>
+        <h4>Privacy</h4>
+        <p>Any personal information you provide through this website (including via the contact form) will be used solely for the purpose for which it was collected. We will not share your information with third parties except as required by law or with your consent. For enquiries about our privacy practices, please contact office@brooklinepg.com.au.</p>
+      </div>
+      <div class="disc-col">
+        <h4>Copyright</h4>
+        <p>All content on this website, including text, images, graphics and design, is the property of Brookline SDA Pty Ltd or its licensors and is protected by Australian copyright law. You may not reproduce, distribute or use any content from this website without prior written consent.</p>
+        <h4>Contact</h4>
+        <p>Brookline SDA Pty Ltd ACN 679 762 693<br>Brookline Property Group Pty Ltd ACN 664 252 546<br>Boutique Capital Pty Ltd AFSL 508011<br><br>
+        <a href="mailto:office@brooklinepg.com.au">office@brooklinepg.com.au</a><br>
+        <a href="https://www.brooklinepg.com.au/disclaimers" target="_blank">Full disclaimers — brooklinepg.com.au/disclaimers</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ─── CONTENT LOADER ─── */
+async function loadJSON(name) {
+  const res = await fetch(`/content/${name}.json?v=${Date.now()}`);
+  if (!res.ok) throw new Error(`${name}.json: ${res.status}`);
+  return res.json();
+}
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+const $ = id => document.getElementById(id);
+const arrow = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+
+function resCard(r) {
+  return `<div class="rcard">
+    <div class="rcard-img"><img src="${esc(r.image)}" alt="${esc(r.name)}"></div>
+    <div class="rcard-body">
+      <span class="rtag">${esc(r.tag)}</span>
+      <h3 class="rname">${esc(r.name)}</h3>
+      <p class="rdetail">${esc(r.description)}</p>
+      <div class="rpills">${(r.pills || []).map(p => `<span class="rpill">${esc(p)}</span>`).join('')}</div>
+      <div class="rfooter"><a href="#contact" class="rcta">Enquire about this home ${arrow}</a></div>
+    </div>
+  </div>`;
+}
+
+async function init() {
+  const names = ['hero','stats','welcome','residences','features','quote','outdoor','location','gallery','contact'];
+  const results = await Promise.allSettled(names.map(loadJSON));
+  const d = {};
+  results.forEach((r, i) => { if (r.status === 'fulfilled') d[names[i]] = r.value; else console.error(r.reason); });
+
+  if (d.hero) {
+    $('hero').style.backgroundImage = `url('${d.hero.hero_image}')`;
+    $('heroPill').textContent = d.hero.pill_text;
+    $('heroTitle').innerHTML = `${esc(d.hero.headline_line1)}<br>to <em>${esc(d.hero.headline_line2)}</em>`;
+    $('heroSub').textContent = d.hero.subheadline;
+    $('heroCta1').textContent = d.hero.cta_primary_text;
+    $('heroCta2').textContent = d.hero.cta_secondary_text;
+  }
+  if (d.stats) {
+    $('stats').innerHTML = d.stats.stats.map(s =>
+      `<div class="stat"><span class="stat-n">${esc(s.number)}</span><span class="stat-l">${esc(s.label)}</span></div>`).join('');
+  }
+  if (d.welcome) {
+    const w = d.welcome;
+    $('wTag').textContent = w.tag;
+    $('wHead').innerHTML = `${esc(w.headline)}<br><em>${esc(w.headline_em)}</em>`;
+    $('wBody1').textContent = w.body_1;
+    $('wBody2').textContent = w.body_2;
+    $('wBody3').textContent = w.body_3;
+    $('wImg').src = w.welcome_image;
+    $('wCerts').innerHTML = (w.certs || []).map(c =>
+      `<span class="cert${c.style === 'terra' ? ' cert-terra' : ''}">${esc(c.label)}</span>`).join('');
+  }
+  if (d.residences) {
+    $('rGrid').innerHTML = resCard(d.residences.house) + resCard(d.residences.villa);
+  }
+  if (d.features) {
+    $('fGrid').innerHTML = d.features.features.map(f => `<div class="fitem">
+      <div class="fnum">${esc(f.number)}</div>
+      <h3 class="ftitle">${esc(f.title)}</h3>
+      <p class="fdesc">${esc(f.description)}</p></div>`).join('');
+  }
+  if (d.quote) {
+    $('qText').innerHTML = `&ldquo;${esc(d.quote.text)}&rdquo;`;
+    $('qAttr').textContent = d.quote.attribution;
+  }
+  if (d.outdoor) {
+    const o = d.outdoor;
+    $('oImg').style.backgroundImage = `url('${o.image}')`;
+    $('oTag').textContent = o.tag;
+    $('oHead').innerHTML = `${esc(o.headline)}<br><em>${esc(o.headline_em)}</em>`;
+    $('oBody1').textContent = o.body_1;
+    $('oBody2').textContent = o.body_2;
+    $('oChecks').innerHTML = (o.checklist || []).map(i => `<li>${esc(i)}</li>`).join('');
+  }
+  if (d.location) {
+    $('poiGrid').innerHTML = d.location.pois.map(p =>
+      `<div class="poi"><div class="poi-icon">${esc(p.icon)}</div><div><span class="poi-name">${esc(p.name)}</span><span class="poi-dist">${esc(p.distance)}</span></div></div>`).join('');
+    $('mapFrame').src = `https://maps.google.com/maps?q=${encodeURIComponent(d.location.address)}&output=embed`;
+  }
+  if (d.gallery) {
+    $('gm').innerHTML = d.gallery.images.map(i =>
+      `<div class="gitem${i.wide ? ' wide' : ''}"><img src="${esc(i.src)}" alt="${esc(i.alt)}" draggable="false"></div>`).join('');
+    updateArrows();
+  }
+  if (d.contact) {
+    const c = d.contact;
+    $('cDetails').innerHTML = `
+      <div class="cline"><div class="cicon">📍</div><div><p class="clbl">Address</p><p class="cval">${esc(c.address)}</p></div></div>
+      <div class="cline"><div class="cicon">✉️</div><div><p class="clbl">Email</p><p class="cval"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></p></div></div>
+      <div class="cline"><div class="cicon">🏠</div><div><p class="clbl">SDA Provider</p><p class="cval"><a href="${esc(c.sda_provider_url)}" target="_blank">${esc(c.sda_provider)}</a></p></div></div>
+      <div class="cline"><div class="cicon">🤝</div><div><p class="clbl">SIL Provider</p><p class="cval"><a href="${esc(c.sil_provider_url)}" target="_blank">${esc(c.sil_provider)}</a></p></div></div>`;
+    $('cBlurb').textContent = c.manager_blurb;
+    $('fContact').innerHTML = `<a href="mailto:${esc(c.email)}" style="color:rgba(255,255,255,.5);text-decoration:none;">${esc(c.email)}</a><br>SDA by ${esc(c.sda_provider)}<br>SIL by ${esc(c.sil_provider)}<br><br>&copy; 2025 Brookline SDA Pty Ltd`;
+  }
+}
+
+/* ─── NAV ─── */
+const nav = $('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
+
+/* ─── GALLERY SCROLL + DRAG ─── */
+const gm = $('gm'), gp = $('gp'), gn = $('gn');
+function updateArrows() {
+  gp.disabled = gm.scrollLeft < 10;
+  gn.disabled = gm.scrollLeft >= gm.scrollWidth - gm.clientWidth - 10;
+}
+let isDown = false, moved = false, startX, startScroll;
+gm.addEventListener('mousedown', e => { isDown = true; moved = false; gm.classList.add('drag'); startX = e.pageX; startScroll = gm.scrollLeft; });
+window.addEventListener('mouseup', () => { isDown = false; gm.classList.remove('drag'); });
+window.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  const dx = e.pageX - startX;
+  if (Math.abs(dx) > 5) moved = true;
+  gm.scrollLeft = startScroll - dx;
+});
+gm.addEventListener('scroll', updateArrows);
+gn.addEventListener('click', () => gm.scrollBy({ left: 400, behavior: 'smooth' }));
+gp.addEventListener('click', () => gm.scrollBy({ left: -400, behavior: 'smooth' }));
+
+/* ─── LIGHTBOX ─── */
+const lb = $('lb'), lbi = $('lbi');
+gm.addEventListener('click', e => {
+  if (moved) return;
+  const img = e.target.closest('.gitem img');
+  if (!img) return;
+  lbi.src = img.src; lbi.alt = img.alt;
+  lb.classList.add('on'); document.body.style.overflow = 'hidden';
+});
+function closeLb() { lb.classList.remove('on'); document.body.style.overflow = ''; }
+$('lbx').addEventListener('click', closeLb);
+lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+
+/* ─── DISCLOSURES ─── */
+$('discToggle').addEventListener('click', () => $('discBody').classList.toggle('open'));
+
+/* ─── CONTACT FORM (Netlify Forms) ─── */
+$('cf').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  const btn = $('fsub');
+  btn.textContent = 'Sending…'; btn.disabled = true;
+  try {
+    const res = await fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(this)).toString()
+    });
+    if (!res.ok) throw new Error(res.status);
+    btn.textContent = "Sent — we'll be in touch!";
+    btn.style.background = 'var(--sage-deep)';
+    this.reset();
+  } catch {
+    btn.textContent = 'Something went wrong — email us directly';
+    btn.disabled = false;
+  }
+});
+
+init();
+</script>
+</body>
+</html>

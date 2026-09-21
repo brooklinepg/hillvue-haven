@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "src": "/images/img05.jpg",
+      "alt": "Living room with sliding doors to outdoor",
+      "wide": true
+    },
+    {
+      "src": "/images/img06.jpg",
+      "alt": "Front exterior street view",
+      "wide": false
+    },
+    {
+      "src": "/images/img07.jpg",
+      "alt": "Accessible ensuite bathroom",
+      "wide": false
+    },
+    {
+      "src": "/images/img08.jpg",
+      "alt": "Covered alfresco and rear exterior",
+      "wide": true
+    },
+    {
+      "src": "/images/img09.jpg",
+      "alt": "Side yard with lawn",
+      "wide": false
+    },
+    {
+      "src": "/images/img10.jpg",
+      "alt": "Height-adjustable kitchen bench",
+      "wide": false
+    },
+    {
+      "src": "/images/img11.jpg",
+      "alt": "Aerial front view of property",
+      "wide": true
+    },
+    {
+      "src": "/images/img12.jpg",
+      "alt": "Wide accessible hallway",
+      "wide": false
+    },
+    {
+      "src": "/images/img13.jpg",
+      "alt": "Rear exterior view",
+      "wide": false
+    },
+    {
+      "src": "/images/img14.jpg",
+      "alt": "Aerial view with mountain backdrop",
+      "wide": true
+    }
+  ]
+}

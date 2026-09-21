@@ -1,0 +1,45 @@
+{
+  "address": "46 Mustang Close, Hillvue NSW 2340",
+  "pois": [
+    {
+      "icon": "🏥",
+      "name": "Tamworth Base Hospital",
+      "distance": "9 min north · Dean St"
+    },
+    {
+      "icon": "🏛️",
+      "name": "Services Australia",
+      "distance": "Centrelink · Medicare · Peel St"
+    },
+    {
+      "icon": "🛒",
+      "name": "Calala IGA & NW Health GP",
+      "distance": "Campbell Rd, Calala · 3 min"
+    },
+    {
+      "icon": "🏙️",
+      "name": "Tamworth CBD",
+      "distance": "8 min north · Peel St"
+    },
+    {
+      "icon": "🎸",
+      "name": "Big Golden Guitar",
+      "distance": "2 min · 1.2 km south"
+    },
+    {
+      "icon": "🐴",
+      "name": "AELEC Equestrian Centre",
+      "distance": "503 Goonoo Goonoo Rd"
+    },
+    {
+      "icon": "🍽️",
+      "name": "Tamworth Dining & Cafes",
+      "distance": "8 min · Peel St precinct"
+    },
+    {
+      "icon": "🌿",
+      "name": "Bicentennial Park",
+      "distance": "10 min · riverside walks"
+    }
+  ]
+}

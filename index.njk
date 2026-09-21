@@ -522,22 +522,10 @@ document.getElementById('cf').addEventListener('submit',async function(e){
   }catch{btn.textContent='Something went wrong — email us directly';btn.disabled=false;}
 });
 </script>
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
-  window.addEventListener('load', function() {
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-      if (location.hash && location.hash.includes('invite_token')) {
-        window.netlifyIdentity.open();
-      }
-    }
-  });
+  if (window.location.hash && window.location.hash.includes('invite_token')) {
+    window.location.href = '/admin/' + window.location.hash;
+  }
 </script>
 </body>
 </html>

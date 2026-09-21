@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: brooklinepg/hillvuehaven
+  repo: brooklinepg/hillvue-haven
   branch: main
 
 media_folder: images
